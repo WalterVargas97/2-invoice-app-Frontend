@@ -1,16 +1,17 @@
-import { last } from "rxjs";
+import { Invoice } from "../models/invoice";
 
-export const invoice = {
+
+export const InvoiceData : Invoice = {
   id:1,
   name:'Componentes de PC',
-  clent: {
+  client: {
     name: 'Andres',
     lastName: 'Doe',
     address: {
       country: 'USA',
       city: 'Los Angeles',
       street: 'Av. Insurgentes 123',
-      number: '456',
+      number: 456,
     }
   },
   company:{
