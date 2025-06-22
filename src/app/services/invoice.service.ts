@@ -5,6 +5,12 @@ import { InvoiceData } from '../data/invoice.data';
   providedIn: 'root'
 })
 export class ItemService {
+
   private invoice: Invoice = InvoiceData;
+
   constructor() { }
+
+  getInvoice(): Invoice {
+    return this.invoice;
+  }
 }
