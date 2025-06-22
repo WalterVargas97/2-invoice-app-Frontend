@@ -30,6 +30,18 @@ export const InvoiceData : Invoice = {
       product:"Procesador Intel i5",
       price: 200,
       quantity: 1
+    },
+    {
+      id: 1,
+      product:"Procesador Ryzen 7",
+      price: 150,
+      quantity: 1
+    },
+    {
+      id: 1,
+      product:"Procesador Ryzen 5",
+      price: 100,
+      quantity: 1
     }
   ]
 }
