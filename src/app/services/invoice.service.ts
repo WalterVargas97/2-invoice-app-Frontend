@@ -4,7 +4,7 @@ import { InvoiceData } from '../data/invoice.data';
 @Injectable({
   providedIn: 'root'
 })
-export class ItemService {
+export class InvoiceService {
 
   private invoice: Invoice = InvoiceData;
 

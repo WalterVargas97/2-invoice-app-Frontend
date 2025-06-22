@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './invoice.component.css'
 })
 export class InvoiceComponent {
-  @
+
 
 }
