@@ -1,7 +1,7 @@
 import { Invoice } from "../models/invoice";
 
 
-export const InvoiceData : Invoice = {
+export const InvoiceData : any = {
   id:1,
   name:'Componentes de PC',
   client: {
