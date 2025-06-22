@@ -8,5 +8,5 @@ export class invoice{
   client! : Client;
   company! : Company;
   items!: Item[];
-
+  
 }
