@@ -1,1 +1,14 @@
-<p>client-view works!</p>
+<h3>Datos del Cliente</h3>
+<ul class="list-group">
+  <li class="list-group-item active">
+    {{ name }} {{ lastName }}
+  </li>
+  <li class="list-group-item">
+    {{ address.country }} 
+    {{ address.city }}
+  </li>
+  <li class="list-group-item">
+    {{ address.street }} 
+    {{ address.number }}
+  </li>
+</ul>
