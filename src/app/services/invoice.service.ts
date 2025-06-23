@@ -12,7 +12,12 @@ export class InvoiceService {
 
   getInvoice(): Invoice {
     const total: number = this.calculateTotal();
-    return {... this.invoice, total};
+    return {... this.invoice,total: total};
+  }
+  remove(id:number):Invoice{
+    this.invoice.items = this.invoice.items.filter(item => item.id !== id);
+    const total: number = this.calculateTotal();
+    return {... this.invoice, total: total};
   }
   calculateTotal(): number {
   //  Forma normal de hacerlo, abajo esta la forma reduccionista de hacerlo

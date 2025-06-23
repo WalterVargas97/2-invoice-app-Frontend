@@ -13,8 +13,8 @@
           <app-company-view [name]="invoice.company.name" [fiscalNumber]="invoice.company.fiscalNumber" ></app-company-view>
         </div>
       </div>
-      <app-list-items-view [items]="invoice.items"></app-list-items-view>
-      <total [total]="invoice.total"></total>
+      <app-list-items-view [items]="invoice.items" (removeEventEmitter)="removeItem($event)"></app-list-items-view>
+      <app-total [total]="invoice.total"></app-total>
     </div>
   </div>
 </div>
